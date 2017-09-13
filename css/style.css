@@ -1,0 +1,326 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/*fonts end*/
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+.clear
+{
+  clear: both;
+}
+
+/*HEADER*/
+  header
+  {
+    height: 800px;
+      background: linear-gradient( #312A6C, #852D91);
+  }
+
+  .name_us
+  {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 40px;
+    font-family: arial;
+    width: 550px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+
+  }
+
+  .block_name_us{
+    padding-top: 310px;
+  }
+
+  .skill_on_header{
+    font-size: 20px;
+    color: #c4d2d8;
+    margin-top:15px;
+  }
+
+  .menu
+  {
+    float: left;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    padding-top: 70px;
+    float: left;
+  }
+
+  .block_on_menu{
+    width: 100px;
+    float: left;
+    padding-left: 215px;
+  }
+
+  .block_menu
+  {
+    float: right;
+    width: 31px;
+    margin-right: 215px;
+    background-size: cover;
+    height: 31px;
+    background-image: url(file:///E:/god%20portfolop/img/menu.png);
+  }
+
+  .photo_header
+  {
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    margin-top: 88px;
+    height: 800px;
+    background-size: cover;
+    background-image: url(file:///E:/god%20portfolop/img/header.png);
+    margin-left: 800px;
+  }
+/*HEADER END*/
+
+/*article*/
+
+article
+{
+  height: 715px;
+}
+
+.pohoto_on_article
+{
+  width: 45%;
+  float: left;
+  height: 715px;
+}
+
+.text_on_article
+{
+  height: 715px;
+  padding-top:175px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #392222;
+}
+
+.head_text
+{
+  font-size: 20px;
+}
+
+.some_text
+{
+  margin-top: 40px;
+}
+
+.button_me
+{
+  width: 200px;
+  height: 50px;
+  background-color: #ff2b4a;
+  text-align: center;
+  line-height: 50px;
+  margin-top:50px;
+  font-style:arial;
+  float: left;
+  font-family: 20px;
+}
+
+#photo_art
+{
+  width: 500px;
+}
+
+/*article end*/
+
+/*my_working_proces*/
+
+.my_working_proces
+{
+  height: 664px;
+  background: #f6f6f6;
+}
+
+.head_in_proces
+{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 125px;
+  font-family: 'Anton', sans-serif;
+
+}
+
+.design_squad
+{
+  width: 300px;
+  height: 280px;
+  background-color: #10c6fc;
+  margin-left: 15px;
+  float:left;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.development_squad
+{
+  width: 300px;
+  margin-left: 15px;
+  height: 280px;
+  font-size: 25px;
+  background-color: #6f40e6;
+  float:left;
+  text-align: center;
+  color: white;
+}
+
+.testing_squad
+{
+  width: 300px;
+  margin-left: 15px;
+  font-size: 25px;
+  height: 280px;
+  background-color: #002453;
+  float:left;
+  text-align: center;
+  color: white;
+}
+
+.launch_squad
+{
+  width: 300px;
+  height: 280px;
+  margin-left: 15px;
+  background-color: #ff2b4a;
+  font-size: 25px;
+  float:left;
+  text-align: center;
+  color: white;
+}
+
+.squaded
+{
+  margin-top:120px;
+}
+
+.center_margin
+{
+  padding-top: 120px;
+}
+/*my_working_proces end*/
+
+/*coments*/
+
+.comments
+{
+  height: 800px;
+    background: linear-gradient( #852D91, #312A6C);
+    justify-content: center;
+}
+
+
+.comment_block
+{
+  width: 570px;
+  margin-top: 120px;
+  height: 540px;
+  background: linear-gradient( #00FFA1, #00FFFF);
+  float: left;
+}
+
+.comment_block_2
+{
+  width: 570px;
+  margin-top: 120px;
+  height: 540px;
+  margin-left: 30px;
+  background: linear-gradient( #00FFA1, #00FFFF);
+  float: left;
+}
+
+.flex_coment
+{
+  display: flex;
+  justify-content: center;
+}
+
+.head_in_coment
+{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-family: 'Anton', sans-serif;
+
+}
+/*coments end*/
+
+
+/*portfolio*/
+
+.portfolio
+{
+  height: 950px;
+}
+
+.blocks_portofolio
+{
+  width: 280px;
+  height: 270px;
+  background-color: #6f40e6;
+  float: left;
+  margin-left: 25px;
+  margin-top: 70px;
+}
+
+.blocks_portofolio_2
+{
+  width: 280px;
+  height: 270px;
+  background-color: #37f3a5;
+  float: left;
+  margin-left: 25px;
+  margin-top: 70px;
+}
+
+.punkts_on_menu
+{
+  float: left;
+  width: 200px;
+  text-align: center;
+  font-style: arial;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.menu_on_portfolio
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+/*portfolio end*/
+
+footer
+{
+  color: white;
+  background: black;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-family: arial;
+}
