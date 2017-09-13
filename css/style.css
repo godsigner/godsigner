@@ -85,8 +85,14 @@ body
     margin-top: 88px;
     height: 800px;
     background-size: cover;
-    background-image: url(file:///E:/god%20portfolop/img/header.png);
     margin-left: 800px;
+  }
+
+  #photo_head
+  {
+    width: 460px;
+    height: 750px;
+    margin-top: 45px;
   }
 /*HEADER END*/
 
